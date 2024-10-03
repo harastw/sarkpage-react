@@ -1,0 +1,27 @@
+body {
+		margin: 0;
+		background-color: black;
+		color: white;
+}
+
+.blackSun {
+		margin-top: 40px;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		width: 20%;
+		height: 20%;
+		animation-name: spin;
+		animation-duration: 5000ms;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
